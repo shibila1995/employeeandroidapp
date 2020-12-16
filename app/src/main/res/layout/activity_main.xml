@@ -1,0 +1,40 @@
+<LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+            android:layout_margin="20dp"
+            android:hint="Employee code"
+            android:inputType="number"
+            android:id="@+id/empcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:layout_margin="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/textpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:onClick="loginevent"
+            android:text="login"
+            android:background="@drawable/buttonstyle"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:onClick="regevent"
+            android:text="Register"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
